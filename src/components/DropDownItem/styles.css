@@ -1,0 +1,43 @@
+.main {
+  padding-bottom: 10px;
+  background-color: #f9f9f9;
+  padding: 12px 16px;
+  z-index: 10;
+}
+
+.collapsible {
+  color: black;
+  cursor: pointer;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 12px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  display: flex;
+  flex-direction: row;
+}
+
+.radioBtn {
+  color: black;
+  text-align: left;
+  font-size: 12px;
+}
+
+.collapsible:hover {
+  background-color: #ecebeb;
+}
+
+.content {
+  padding: 0px;
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  padding-left: 20px;
+}
+
+p {
+  cursor: pointer;
+  padding-top: 3px;
+  margin: 0;
+}
